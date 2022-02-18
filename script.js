@@ -5,3 +5,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("pageNav").style.width = "0";
 }
+
+function zoom() {
+    document.body.style.zoom = "90%"
+}
