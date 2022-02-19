@@ -1,14 +1,33 @@
 body {
-  background: url(https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iD.ClwIptbIk/v1/-1x-1.jpg);
-  background-attachment: fixed;
   font-family: "Lato", sans-serif;
+  background: 
+  url("images/whiteTextureBackground.png") 
+  no-repeat 
+  top, 
+  url("images/bikeBackground.jpg") 
+  no-repeat 
+  center 
+  fixed;
+  background-size: 100%;
+  background-color: gray;
 }
-header > .row {
-  background-color: rgba(255, 255, 255, 0.4);
+p#top {
+  height: 80px;
+  background: none;
+}
+header {
   box-shadow: 5px 5px 10px;
   border-radius: 40px;
-  width: 90%;
-  margin-top: 80px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  margin-bottom: 80px;
+}
+header > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
 }
 .row {
   display: flex;
@@ -20,10 +39,6 @@ header > .row {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 25px;
-}
-img#profile {
-  box-shadow: 5px 5px 10px;
-  border-radius: 100px;
 }
 #gallery img {
   box-shadow: 5px 5px 10px;
@@ -60,7 +75,8 @@ p {
 
 #navbutton {
   color: white;
-  font-size: 200%;
+  text-shadow: 3px 3px 5px black;
+  font-size: 300%;
   cursor: pointer;
   position: fixed;
   top: 0;
