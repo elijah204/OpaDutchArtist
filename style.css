@@ -1,7 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
   background: 
-  url("images/whiteTextureBackground.png") 
+  url("images/blackFadeBackground.png") 
   no-repeat 
   top, 
   url("images/bikeBackground.jpg") 
@@ -18,7 +18,7 @@ p#top {
 header {
   box-shadow: 5px 5px 10px;
   border-radius: 40px;
-  width: 80%;
+  width: 65%;
   margin: auto;
   text-align: center;
   background-color: black;
@@ -31,20 +31,31 @@ header > img {
 }
 .row {
   display: flex;
-  width: 65%;
+  width: 90%;
   margin: auto;
 }
 .column {
-  flex: 50%;
+  flex: 33%;
   text-align: center;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+#gallery h1 {
+  font-style: italic;
+  text-align: center;
+  font-size: 300%;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+}
+#gallery a {
+  color: black;
 }
 #gallery img {
   box-shadow: 5px 5px 10px;
   border-radius: 15px;
   margin-left: 15px;
   margin-right: 15px;
+  width: 80%;
 }
 .thumbnail:hover {
   position: relative;
@@ -76,7 +87,7 @@ p {
 #navbutton {
   color: white;
   text-shadow: 3px 3px 5px black;
-  font-size: 300%;
+  font-size: 250%;
   cursor: pointer;
   position: fixed;
   top: 0;
