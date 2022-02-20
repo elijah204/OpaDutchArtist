@@ -1,33 +1,33 @@
 body {
   font-family: "Lato", sans-serif;
-  background: 
+  background:
   url("images/blackFadeBackground.png") 
   no-repeat 
-  top, 
-  url("images/bikeBackground.jpg") 
-  no-repeat 
-  center 
-  fixed;
-  background-size: 100%;
-  background-color: gray;
+  top;
+  background-size: 100% auto;
 }
 p#top {
-  height: 80px;
+  height: 50px;
   background: none;
 }
 header {
-  box-shadow: 5px 5px 10px;
-  border-radius: 40px;
-  width: 65%;
-  margin: auto;
   text-align: center;
-  background-color: black;
-  margin-bottom: 80px;
 }
 header > img {
-  width: 100%;
-  height: 100%;
   border-radius: 40px;
+  width: 65%;
+  background-color: black;
+  margin-bottom: 20px;
+  box-shadow: 20px 20px 15px black;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 .row {
   display: flex;
@@ -40,12 +40,22 @@ header > img {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+#gallery {
+  background: 
+  url("images/bikeBackground.jpg") 
+  no-repeat 
+  center 
+  fixed;
+  background-size: auto 100%;
+  background-color: gray;
+}
 #gallery h1 {
   font-style: italic;
   text-align: center;
   font-size: 300%;
   color: white;
   text-shadow: 3px 3px 5px black;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 #gallery a {
   color: black;

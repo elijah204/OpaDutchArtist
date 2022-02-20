@@ -6,30 +6,28 @@
   <link rel="stylesheet" href="./style.css">
 
 </head>
-<body>
-<!-- partial:index.partial.html -->
 <body onload="zoom()">
   <div id="pageNav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#img1">A Bridge in the City - Amsterdam.</a>
-    <a href="#img2">Bridges Along a Canal - Amsterdam.</a>
-    <a href="#img3">Clear Winter Day - Amsterdam.</a>
-    <a href="#img4">Amsterdam Under Snow.</a>
-    <a href="#img5">De Munt - Amsterdam.</a>
+    <a href="#img1" onclick="closeNav()">A Bridge in the City - Amsterdam.</a>
+    <a href="#img2" onclick="closeNav()">Bridges Along a Canal - Amsterdam.</a>
+    <a href="#img3" onclick="closeNav()">Clear Winter Day - Amsterdam.</a>
+    <a href="#img4" onclick="closeNav()">Amsterdam Under Snow.</a>
+    <a href="#img5" onclick="closeNav()">De Munt - Amsterdam.</a>
   </div>
   <h1 id="navbutton" onclick="openNav()">&#9776 Navigate by title</h1>
   <script type="text/javascript">
     function openNav()
   </script>
-
+  
   <p id="top"></p>
   <header>
-    <img src="pageHeader.png" alt="Opa Dutch Artist Paints">
+	<img src="pageHeader.png" alt="Opa Dutch Artist Paints">
   </header>
 
   <section id="gallery">
-    <h1>ARTWORKS</h1>
-    <div class="row">
+	<h1>ARTWORKS</h1>
+	<div class="row">
 
 	  <!-- COLUMN 1 -->
 	  <div class="column">
@@ -38,61 +36,58 @@
 			src="images/amsterdamBridgeAndCity.jpg"
 			alt="Amsterdam Bridge and City"
 			id="img1"
-            class="thumbnail"
-            draggable="false">
+			class="thumbnail"
+			draggable="false">
 		</a>
-        <p>A Bridge in the City - Amsterdam.</p>
-        <br>
+		<p>A Bridge in the City - Amsterdam.</p>
+		<br>
 		<a href="images/deMuntAmsterdam.jpg" target="_blank">
-          <img
+		  <img
 			src="images/deMuntAmsterdam.jpg"
 			alt="De Munt Tower in Amsterdam"
 			id="img5"
-            class="thumbnail"
-            draggable="false">
+			class="thumbnail"
+			draggable="false">
 		</a>
-        <p>De Munt - Amsterdam.</p>
+		<p>De Munt - Amsterdam.</p>
 	  </div>
 
 	  <!-- COLUMN 2 -->
-      <div class="column">
+	  <div class="column">
 		<a href="images/clearWinterAmsterdam - BLURRY.jpg" target="_blank">
 		  <img
 			src="images/clearWinterAmsterdam - BLURRY.jpg"
 			alt="A Clear Winter Day in Amsterdam"
 			id="img3"
-            class="thumbnail"
-            draggable="false">
+			class="thumbnail"
+			draggable="false">
 		</a>
-        <p>Clear Winter Day - Amsterdam.</p>
+		<p>Clear Winter Day - Amsterdam.</p>
 		<br>
 		<a href="images/amsterdamUnderSnow.jpg" target="_blank">
-          <img
+		  <img
 			src="images/amsterdamUnderSnow.jpg"
 			alt="A Snowy Day in Amsterdam"
 			id="img4"
-            class="thumbnail"
-            draggable="false">
+			class="thumbnail"
+			draggable="false">
 		</a>
-        <p>Amsterdam Under Snow.</p>
-      </div>
+		<p>Amsterdam Under Snow.</p>
+	  </div>
 
 	  <!-- COLUMN 3 -->
-      <div class="column">
+	  <div class="column">
 		<a href="images/amsterdamBridges.jpg" target="_blank">
-          <img
+		  <img
 			src="images/amsterdamBridges.jpg"
 			alt="Amsterdam Bridges Over a Canal"
 			id="img2"
-            class="thumbnail"
-            draggable="false">
+			class="thumbnail"
+			draggable="false">
 		</a>
-        <p>Bridges Along a Canal - Amsterdam.</p>
-      </div>
-    </div>
-</body>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
+		<p>Bridges Along a Canal - Amsterdam.</p>
+	  </div>
+	</div>
+  </section>
 </body>
 </html>
