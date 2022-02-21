@@ -1,24 +1,14 @@
 body {
   font-family: "Lato", sans-serif;
-  background:
-  url("images/blackFadeBackground.png") 
-  no-repeat 
-  top;
-  background-size: 100% auto;
-}
-p#top {
-  height: 50px;
-  background: none;
+  background: url("images/blackFadeBackground.png");
+  background-size: 100% 100%;
+   background-attachment: fixed;
 }
 header {
   text-align: center;
 }
 header > img {
-  border-radius: 40px;
-  width: 65%;
-  background-color: black;
-  margin-bottom: 35px;
-  box-shadow: 20px 20px 15px black;
+  width: 100%;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
         -ms-animation: fadein 3s; /* Internet Explorer */
@@ -31,28 +21,16 @@ header > img {
 }
 .row {
   display: flex;
-  width: 90%;
-  margin: auto;
+  width: 100%;
 }
 .column {
-  flex: 33%;
+  flex: 30%;
   text-align: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-#gallery {
-  background: 
-  url("images/paintbrushBackground.jpg") 
-  no-repeat 
-  center 
-  fixed;
-  background-size: 100% 100%;
-  background-color: gray;
 }
 #gallery h1 {
   font-style: italic;
   text-align: center;
-  font-size: 300%;
+  font-size: 200%;
   color: white;
   text-shadow: 3px 3px 5px black;
   background-color: rgba(0, 0, 0, 0.6);
@@ -65,25 +43,49 @@ header > img {
 #gallery img {
   box-shadow: 5px 5px 10px;
   border-radius: 15px;
-  width: 80%;
+  width: 90%;
+}
+.sold {
+  position: relative;
+}
+.sold h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-45deg);
+  color: red;
+  font-size: clamp(1rem, 0.5rem + 8vw, 10rem);
 }
 .thumbnail:hover {
   position: relative;
-  top: -25px;
-  left: -35px;
+  top: -35px;
+}
+.specs {
+  position: relative;
+}
+.specs:hover:after {
+  background: #333;
+  background: rgba(0, 0, 0, .8);
+  border-radius: 5px;
+  color: #fff;
+  content: attr(gloss);
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 100%;
 }
 hr {
   width: 80%;
 }
 p {
   width: 75%;
-  padding: 10px;
+  padding: 5px;
   margin: auto;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 5px;
+  margin-bottom: 25px;
   color: white;
   text-shadow: 3px 3px 10px black;
-  font-size: 200%;
+  font-size: 150%;
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
@@ -98,6 +100,7 @@ p {
   position: fixed;
   top: 0;
   left: 40px;
+  z-index: 2;
 }
 .sidenav {
   height: 100%;
