@@ -20,16 +20,24 @@ header > img {
     to   { opacity: 1; }
 }
 .row {
-  display: flex;
-  width: 100%;
+display: flex;
+width: 100%;
 }
-.threeColumn {
-  flex: 30%;
-  text-align: center;
+.column {
+flex: 100%;
+text-align: center;
 }
-.fourColumn {
-  flex: 24%;
-  text-align: center;
+@media only screen 
+and (max-device-width: 1000px)
+{
+  .row {
+    display: inline;
+    width: 90%;
+	margin: auto;
+  }
+  #categories img {
+	width: 100%;
+  }
 }
 #categories h1 {
   width: 75%;
@@ -53,12 +61,6 @@ header > img {
 }
 #categories a {
   color: black;
-}
-@media (max-width: 1000px) {
-  .fourColumn {
-  flex: 50%;
-  text-align: center;
-}
 }
 #gallery h1 {
   font-style: italic;
