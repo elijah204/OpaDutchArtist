@@ -35,7 +35,7 @@ and (max-device-width: 1000px)
   #categories > img {
 	width: 100%;
   }
-  #categories > h1 {
+  #categories h1 {
 	font-size: 400%;
   }
   header > img {
