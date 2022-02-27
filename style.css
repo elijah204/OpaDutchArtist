@@ -41,6 +41,9 @@ and (max-device-width: 1000px)
   header > img {
 	width: 100%;
   }
+  #navbutton {
+	font-size: 400%;
+  }
 }
 .column {
   position: relative;
