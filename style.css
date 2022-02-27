@@ -32,7 +32,7 @@ and (max-device-width: 1000px)
     width: 70%;
 	margin: auto;
   }
-  #categories img {
+  #categories > img {
 	width: 100%;
   }
   #categories > h1 {
