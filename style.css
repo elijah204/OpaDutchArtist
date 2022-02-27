@@ -4,11 +4,8 @@ body {
   background-size: 100% 100%;
    background-attachment: fixed;
 }
-header {
-  text-align: center;
-}
 header > img {
-  width: 100%;
+  width: 60%;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
         -ms-animation: fadein 3s; /* Internet Explorer */
@@ -20,38 +17,36 @@ header > img {
     to   { opacity: 1; }
 }
 .row {
-display: flex;
-width: 100%;
+  display: flex;
+  width: 100%;
 }
 .column {
-flex: 100%;
-text-align: center;
+  flex: 100%;
+  text-align: center;
 }
 @media only screen 
 and (max-device-width: 1000px)
 {
-  .row {
+  #categories .row {
     display: inline;
-    width: 90%;
+    width: 70%;
 	margin: auto;
   }
   #categories img {
 	width: 100%;
   }
 }
+.column {
+  position: relative;
+}
 #categories h1 {
-  width: 75%;
-  padding: 5px;
-  margin: auto;
-  margin-top: 5px;
-  margin-bottom: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 30%;
   color: white;
-  text-shadow: 3px 3px 10px black;
-  font-size: 150%;
-  font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  width: 80%;
 }
 #categories img {
   box-shadow: 5px 5px 10px;
@@ -80,6 +75,45 @@ and (max-device-width: 1000px)
   border-radius: 15px;
   width: 90%;
 }
+
+
+
+.backToHome {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 3;
+  
+}
+.backToHome a {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease,transform 0.15s ease;
+  will-change: box-shadow,transform;
+  background: rgba(255, 99, 71, .8);
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+  height: 48px;
+  padding: 20px 32px 0px 32px;
+  font-size: 18px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  transition: box-shadow 0.15s ease,transform 0.15s ease;
+}
+.backToHome a:hover {
+  box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+  transform: translateY(-2px);
+}
+.backToHome a:active{
+  box-shadow: inset 0px 3px 7px #d6d6e7;
+  transform: translateY(2px);
+}
+
+
+
+
 .sold {
   position: relative;
 }
