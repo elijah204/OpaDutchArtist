@@ -23,9 +23,42 @@ header > img {
   display: flex;
   width: 100%;
 }
-.column {
+.threeColumn {
   flex: 30%;
   text-align: center;
+}
+.fourColumn {
+  flex: 24%;
+  text-align: center;
+}
+#categories h1 {
+  width: 75%;
+  padding: 5px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  color: white;
+  text-shadow: 3px 3px 10px black;
+  font-size: 150%;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 10px;
+}
+#categories img {
+  box-shadow: 5px 5px 10px;
+  border-radius: 15px;
+  width: 90%;
+  margin-top: 30px;;
+}
+#categories a {
+  color: black;
+}
+@media screen and (max-device-width: 480px){
+  .fourColumn {
+  flex: 50%;
+  text-align: center;
+}
 }
 #gallery h1 {
   font-style: italic;
@@ -95,7 +128,7 @@ p {
 #navbutton {
   color: white;
   text-shadow: 3px 3px 5px black;
-  font-size: 250%;
+  font-size: 150%;
   cursor: pointer;
   position: fixed;
   top: 0;
@@ -106,7 +139,7 @@ p {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   top: 0;
   left: 0;
   background-color: #111;
@@ -117,14 +150,14 @@ p {
 .sidenav a {
   padding: 20px 20px 20px 32px;
   text-decoration: none;
-  font-size: 250%;
+  font-size: 150%;
   color: #818181;
   display: block;
   transition: 0.3s;
 }
 .sidenav p {
   background: none;
-  font-size: 200%;
+  font-size: 150%;
   margin-top: 60px;
   margin-bottom: 0px;
   text-align: center;
