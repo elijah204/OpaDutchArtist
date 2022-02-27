@@ -35,6 +35,9 @@ and (max-device-width: 1000px)
   #categories img {
 	width: 100%;
   }
+  #categories h1 {
+	font-size: 400%;
+  }
 }
 .column {
   position: relative;
@@ -194,7 +197,6 @@ p {
 .sidenav p {
   background: none;
   font-size: 150%;
-  margin-top: 60px;
   margin-bottom: 0px;
   text-align: center;
 }
