@@ -25,6 +25,20 @@ header > img {
   text-align: center;
   position: relative;
 }
+header {
+  text-align: center;
+}
+a#readAboutOpa {
+  position: relative;
+  bottom: 60px;
+  font-size: 200%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  text-decoration: none;
+}
 .category h1 {
   position: absolute;
   left: 0;
@@ -34,14 +48,17 @@ header > img {
   width: 80%;
   z-index: 3;
 }
+.category > a {
+  color: black;
+}
+.headerText > a {
+  color: white;
+}
 #categories img {
   box-shadow: 5px 5px 10px;
   border-radius: 15px;
   width: 90%;
   margin-top: 30px;;
-}
-#categories a {
-  color: black;
 }
 #gallery h1 {
   font-style: italic;
@@ -60,6 +77,26 @@ header > img {
   box-shadow: 5px 5px 10px;
   border-radius: 15px;
   width: 90%;
+}
+#bio img {
+  width: 80%;
+  margin-top: 40px;
+}
+#bio {
+  background-repeat: no-repeat;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+#bio h2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
 }
 
 
@@ -147,7 +184,6 @@ p {
   color: #fff;
   border-radius: 10px;
 }
-
 #navbutton {
   color: white;
   text-shadow: 3px 3px 5px black;
@@ -178,7 +214,7 @@ p {
   display: block;
   transition: 0.3s;
 }
-.sidenav p {
+.sidenav h2 {
   background: none;
   font-size: 150%;
   margin-bottom: 0px;
