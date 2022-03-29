@@ -101,7 +101,7 @@ header > a::before {
   width: 90%;
 }
 #bio {
-  background-repeat: no-repeat;
+  background: gray;
   width: 70%;
   margin: auto;
   margin-top: 30px;
@@ -111,6 +111,7 @@ header > a::before {
 #bio img {
   width: 80%;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 #bio h2 {
   color: white;
@@ -119,6 +120,7 @@ header > a::before {
   width: 70%;
   margin: auto;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 .backToHome {
   position: fixed;
@@ -296,7 +298,7 @@ p {
 
 @media all and (max-width: 1024px) and (orientation: portrait) {
   #bio {
-    background-repeat: no-repeat;
+	background: gray;
     width: 100%;
     margin: auto;
     margin-top: 30px;
@@ -306,14 +308,16 @@ p {
   #bio img {
     width: 80%;
     margin-top: 40px;
+	margin-bottom: 40px;
   }
   #bio h2 {
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 30px;
-    width: 80%;
+    width: 70%;
     margin: auto;
     margin-top: 40px;
+	margin-bottom: 40px;
 	font-size: 100%;
   }
 }
