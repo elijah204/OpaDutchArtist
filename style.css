@@ -312,4 +312,11 @@ p {
   #bio {
     width: 100%;
   }
+  #bio h2 {
+	font-size: 120%;
+  }
+  #bio h1 {
+    font-size: 80%;
+  }
+  
 }
