@@ -296,7 +296,7 @@ p {
   background: #555; 
 }
 
-@media all and (max-width: 1024px) and (orientation: portrait) {
+@media all and (orientation: portrait) {
   #bio {
 	background: gray;
     width: 100%;
@@ -318,6 +318,5 @@ p {
     margin: auto;
     margin-top: 40px;
 	margin-bottom: 40px;
-	font-size: 100%;
   }
 }
