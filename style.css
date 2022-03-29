@@ -25,21 +25,43 @@ header > img {
   text-align: center;
   position: relative;
 }
-header {
-  text-align: center;
-}
-a#readAboutOpa {
+header > a {
   position: relative;
-  bottom: 60px;
-  font-size: 200%;
+  left: 20px;
+  bottom: 80px;
+  font-size: 160%;
   background-color: rgba(0, 0, 0, 0.6);
-  color: white;
   padding: 10px;
   border-radius: 10px;
   border: 2px solid white;
+  color: white;
   text-decoration: none;
 }
-.category h1 {
+header > a::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+header > a:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+header > a::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 2;
+  transition: transform .3s ease;
+}
+@keyframes opaBio {
+  0% {transform: scale(1);}
+  100% {transform: scale(1.2);}
+}
+.category > h1 {
   position: absolute;
   left: 0;
   margin-top: 30%;
@@ -58,7 +80,7 @@ a#readAboutOpa {
   box-shadow: 5px 5px 10px;
   border-radius: 15px;
   width: 90%;
-  margin-top: 30px;;
+  margin-top: 30px;
 }
 #gallery h1 {
   font-style: italic;
@@ -152,6 +174,12 @@ a#readAboutOpa {
 .thumbnail:hover {
   position: relative;
   top: -35px;
+  animation-name: thumbnailHover;
+  animation-duration: .3s;
+}
+@keyframes thumbnailHover {
+  0% {top: 0px;}
+  100% {top: -35px;}
 }
 .specs {
   position: relative;
