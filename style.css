@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Lucida Sans", Helvetica, Arial, sans-serif;
   background: url("images/blackFadeBackground.png");
   background-size: 100% 100%;
    background-attachment: fixed;
@@ -101,7 +101,10 @@ header > a::before {
   width: 90%;
 }
 #bio {
-  background: gray;
+  background: url("images/amsterdamMapBackground.jpg") no-repeat;
+  background-size: 80%;
+  background-position: center top;
+  background-attachment: fixed;
   width: 70%;
   margin: auto;
   margin-top: 30px;
@@ -121,6 +124,15 @@ header > a::before {
   margin: auto;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+#bio h1 {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 40px;
+  border: 2px solid white;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
 }
 .backToHome {
   position: fixed;
@@ -298,25 +310,6 @@ p {
 
 @media all and (orientation: portrait) {
   #bio {
-	background: gray;
     width: 100%;
-    margin: auto;
-    margin-top: 30px;
-    border: 2px solid white;
-    border-radius: 30px;
-  }
-  #bio img {
-    width: 80%;
-    margin-top: 40px;
-	margin-bottom: 40px;
-  }
-  #bio h2 {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 30px;
-    width: 70%;
-    margin: auto;
-    margin-top: 40px;
-	margin-bottom: 40px;
   }
 }
