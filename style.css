@@ -370,4 +370,11 @@ p {
   #bio > img#qrCode {
 	width: 30%;
   }
+  a#readAboutOpa {
+	font-size: 100%
+  }
+  footer > a#readAboutOpa {
+    padding: 10px 10% 10px 10%;
+	font-size: 160%
+  }
 }
