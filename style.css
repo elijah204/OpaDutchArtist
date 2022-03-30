@@ -326,4 +326,7 @@ p {
   #bio img {
 	margin-top: 25%;
   }
+  header > a {
+	font-size: 100%;
+  }
 }
