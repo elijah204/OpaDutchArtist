@@ -317,10 +317,10 @@ p {
   background-attachment: fixed;
   }
   #bio h2 {
-	font-size: 300%;
+	font-size: 250%;
+	width: 90%;
   }
   #bio h1 {
     font-size: 150%;
   }
-  
 }
