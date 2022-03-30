@@ -6,11 +6,7 @@ body {
 }
 header > img {
   width: 100%;
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
+  margin-top: 30px;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -25,29 +21,36 @@ header > img {
   text-align: center;
   position: relative;
 }
-header > a {
+header {
+  text-align: center;
+}
+a#readAboutOpa {
   position: relative;
-  left: 20px;
-  bottom: 80px;
+  top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-size: 160%;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px 50px 10px 50px;
   border-radius: 10px;
   border: 2px solid white;
   color: white;
   text-decoration: none;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px black;
+  z-index: 4;
 }
-header > a::before {  
+a#readAboutOpa::before {  
   transform: scaleX(0);
   transform-origin: bottom right;
 }
 
-header > a:hover::before {
+a#readAboutOpa:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-header > a::before {
+a#readAboutOpa::before {
   content: " ";
   display: block;
   position: absolute;
@@ -70,6 +73,7 @@ header > a::before {
   width: 70%;
   z-index: 3;
   font-size: 250%;
+  text-shadow: 3px 3px 5px black;
 }
 .category > h1 > a {
   text-decoration: none;
@@ -90,12 +94,12 @@ header > a::before {
 #gallery h1 {
   font-style: italic;
   text-align: center;
-  font-size: 200%;
+  font-size: 250%;
   color: white;
   text-shadow: 3px 3px 5px black;
   background-color: rgba(0, 0, 0, 0.6);
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 #gallery a {
   color: black;
@@ -151,11 +155,21 @@ header > a::before {
   top: -25px;
   background-color: white;
 }
+footer {
+  text-align: center;
+}
+footer > a#readAboutOpa {
+  bottom: 10px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 30% 10px 30%;
+}
 .backToHome {
-  position: fixed;
-  top: 10px;
+  position: relative;
+  float: right;
+  top: 0px;
   right: 20px;
-  z-index: 3;
+  z-index: 0;
   
 }
 .backToHome a {
@@ -165,16 +179,17 @@ header > a::before {
   cursor: pointer;
   transition: box-shadow 0.15s ease,transform 0.15s ease;
   will-change: box-shadow,transform;
-  background: rgba(118, 245, 154, .8);
+  background: rgba(255, 255, 255, .8);
   box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
   height: 30px;
-  padding: 10px 32px 0px 32px;
-  font-size: 18px;
-  border-radius: 6px;
-  color: white;
+  padding: 20px;
+  font-size: 150%;
+  border-radius: 30px;
+  color: black;
   text-decoration: none;
   transition: box-shadow 0.15s ease,transform 0.15s ease;
-  text-shadow: 2px 2px 4px black;
+  border: 1px solid white;
+  font-weight: bold;
 }
 .backToHome a:hover {
   box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
@@ -211,13 +226,13 @@ header > a::before {
 .specs:hover:after {
   background: #333;
   background: rgba(0, 0, 0, .8);
-  border-radius: 5px;
   color: #fff;
   content: attr(gloss);
   position: absolute;
-  top: -15px;
+  top: -35px;
   left: 0;
   width: 100%;
+  padding: 10px 0px 10px 0px;
 }
 hr {
   width: 80%;
@@ -239,18 +254,18 @@ p {
 #navbutton {
   color: white;
   text-shadow: 3px 3px 5px black;
-  font-size: 150%;
+  font-size: 200%;
   cursor: pointer;
   position: fixed;
   top: 0;
   left: 40px;
-  z-index: 2;
+  z-index: 4;
 }
 .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 4;
+  z-index: 5;
   top: 0;
   left: 0;
   background-color: #111;
