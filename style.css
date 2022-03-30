@@ -378,5 +378,6 @@ p {
   }
   #navbutton {
     font-size: 0%;
+	padding: 0px;
   }
 }
