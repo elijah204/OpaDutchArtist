@@ -371,10 +371,15 @@ p {
 	width: 30%;
   }
   a#readAboutOpa {
-	font-size: 100%
+	font-size: 80%
   }
   footer > a#readAboutOpa {
     padding: 10px 10% 10px 10%;
 	font-size: 160%
+  }
+  #navbutton {
+    font-size: 400%;
+    position: sticky;
+    top: 120px;
   }
 }
