@@ -378,8 +378,6 @@ p {
 	font-size: 160%
   }
   #navbutton {
-    font-size: 400%;
-    position: sticky;
-    top: 120px;
+    font-size: 0%;
   }
 }
