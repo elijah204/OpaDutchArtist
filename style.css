@@ -375,9 +375,9 @@ p {
   }
   footer > a#readAboutOpa {
     font-size: 0%;
+    padding: 0px;
   }
   #navbutton {
     font-size: 0%;
-	padding: 0px;
   }
 }
