@@ -318,9 +318,12 @@ p {
   }
   #bio h2 {
 	font-size: 250%;
-	width: 90%;
+	width: 80%;
   }
   #bio h1 {
     font-size: 150%;
+  }
+  #bio img {
+	margin-top: 25%;
   }
 }
