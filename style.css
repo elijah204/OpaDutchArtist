@@ -374,8 +374,7 @@ p {
 	font-size: 80%
   }
   footer > a#readAboutOpa {
-    padding: 10px 10% 10px 10%;
-	font-size: 160%
+    font-size: 0%;
   }
   #navbutton {
     font-size: 0%;
