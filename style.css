@@ -80,7 +80,8 @@ header > a::before {
   box-shadow: 5px 5px 10px;
   border-radius: 15px;
   width: 90%;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 #gallery h1 {
   font-style: italic;
@@ -107,15 +108,17 @@ header > a::before {
   background-attachment: fixed;
   width: 70%;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 10px;
   border: 2px solid white;
   border-radius: 30px;
 }
 #bio img {
   width: 20%;
-  margin-top: 40px;
+  margin-top: 20px;
   float: right;
   margin-right: 100px;
+  margin-left: 10px;
+  border-radius: 10px;
 }
 #bio h2 {
   color: white;
@@ -139,7 +142,7 @@ header > a::before {
   float: right;
   width: 30%;
   position: relative;
-  top: -50px;
+  top: -25px;
   background-color: white;
 }
 .backToHome {
@@ -323,7 +326,23 @@ p {
     background-size: auto 100%;
     background-position: center bottom;
     background-attachment: fixed;
+	border: 0px 10px 0px 10px solid gray;
+	border-radius: 0px;
+  }
+  #bio img {
+	width: 30%;
+	margin-right: 50px;
   }
   header > a {
 	font-size: 100%;
+  }
+  #bio h1 {
+    width: 100%;
+    margin-bottom: 80px;
+    border: 2px solid white;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0px;
+    margin-left: 0;
+  }
 }
