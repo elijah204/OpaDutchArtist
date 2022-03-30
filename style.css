@@ -67,9 +67,12 @@ header > a::before {
   margin-top: 30%;
   color: white;
   background: rgba(0, 0, 0, 0.6);
-  width: 80%;
+  width: 70%;
   z-index: 3;
-  font-size: 200%;
+  font-size: 250%;
+}
+.category > h1 > a {
+  text-decoration: none;
 }
 .category > a {
   color: black;
@@ -139,6 +142,7 @@ header > a::before {
   border-radius: 10px;
   margin-left: 10%;
   font-style: italic;
+  padding-bottom: 40px;
 }
 #bio > img#qrCode {
   float: right;
@@ -322,9 +326,6 @@ p {
 }
 
 @media all and (orientation: portrait) {
-  .category h1 {
-	font-size: 150%;
-  }
   #bio {
     width: 100%;
     background: url("images/amsterdamMapBackground.jpg") no-repeat;
