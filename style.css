@@ -318,10 +318,12 @@ p {
 
 @media all and (orientation: portrait) {
   #bio {
-  width: 100%;
-  background: url("images/amsterdamMapBackground.jpg") no-repeat;
-  background-size: auto 100%;
-  background-position: center bottom;
-  background-attachment: fixed;
+    width: 100%;
+    background: url("images/amsterdamMapBackground.jpg") no-repeat;
+    background-size: auto 100%;
+    background-position: center bottom;
+    background-attachment: fixed;
   }
+  header > a {
+	font-size: 100%;
 }
