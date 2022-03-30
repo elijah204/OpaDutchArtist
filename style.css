@@ -112,27 +112,35 @@ header > a::before {
   border-radius: 30px;
 }
 #bio img {
-  width: 80%;
+  width: 20%;
   margin-top: 40px;
-  margin-bottom: 40px;
+  float: right;
+  margin-right: 100px;
 }
 #bio h2 {
   color: white;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 30px;
-  width: 70%;
+  width: 80%;
   margin: auto;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 #bio h1 {
-  width: 70%;
-  margin: auto;
-  margin-bottom: 40px;
+  width: 40%;
+  margin-bottom: 80px;
   border: 2px solid white;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 10px;
+  margin-left: 10%;
+}
+#bio > img#qrCode {
+  float: right;
+  width: 30%;
+  position: relative;
+  top: -50px;
+  background-color: white;
 }
 .backToHome {
   position: fixed;
@@ -315,18 +323,5 @@ p {
   background-size: auto 100%;
   background-position: center bottom;
   background-attachment: fixed;
-  }
-  #bio h2 {
-	font-size: 250%;
-	width: 80%;
-  }
-  #bio h1 {
-    font-size: 150%;
-  }
-  #bio img {
-	margin-top: 75%;
-  }
-  header > a {
-	font-size: 50%;
   }
 }
