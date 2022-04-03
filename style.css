@@ -378,6 +378,9 @@ p {
     font-size: 0%;
   }
   .specs:after {
-	font-size: 35%;
+	font-size: 25%;
+	padding: 10px 10px 10px 10px;
   }
+  p {
+	font-size: 175%;
 }
