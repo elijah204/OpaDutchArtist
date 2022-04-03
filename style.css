@@ -220,19 +220,17 @@ footer > a#readAboutOpa {
   0% {top: 0px;}
   100% {top: -35px;}
 }
-.specs {
+.specs:after {
   position: relative;
-}
-.specs:hover:after {
   background: #333;
   background: rgba(0, 0, 0, .8);
   color: #fff;
   content: attr(gloss);
-  position: absolute;
-  top: -35px;
   left: 0;
+  top: -10px;
   width: 100%;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 30px 10px 30px;
+  margin-top: 20px;
 }
 hr {
   width: 80%;
@@ -247,7 +245,7 @@ p {
   text-shadow: 3px 3px 10px black;
   font-size: 150%;
   font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   border-radius: 10px;
 }
@@ -375,7 +373,7 @@ p {
   }
   footer > a#readAboutOpa {
     font-size: 0%;
-    padding: 0px;
+	padding: 0px;
   }
   #navbutton {
     font-size: 0%;
