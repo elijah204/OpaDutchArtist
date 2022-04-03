@@ -413,16 +413,12 @@ img#modal-img {
 	/* Modal */
 	.modal-window {
 		position: fixed;
-		top: 10px;
-		right: 0;
-		bottom: 0;
-		left: 0;
 		z-index: 6;
 		visibility: hidden;
 		opacity: 0;
 		pointer-events: none;
 		transition: all 0.3s;
-		width: 1000px;
+		width: 80%
 		margin: auto;
 	}
 	.modal-window:target {
@@ -438,9 +434,9 @@ img#modal-img {
 		z-index: 7;
 		font-weight: bold;
 		position: absolute;
-		top: 40px;
-		right: 10%;
-		font-size: 200%;
+		bottom: 40px;
+		right: 50%;
+		font-size: 800%;
 		border: 2px solid white;
 		padding: 5px 30px 5px 30px;
 		border-radius: 5px;
