@@ -406,6 +406,9 @@ img#modal-img {
   p {
 		font-size: 175%;
   }
+	.category > h1 {
+		width: 70%;
+	}
 	
 	/* Modal */
 	.modal-window {
