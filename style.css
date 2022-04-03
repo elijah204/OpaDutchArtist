@@ -228,7 +228,6 @@ footer > a#readAboutOpa {
   content: attr(gloss);
   left: 0;
   top: -10px;
-  width: 100%;
   padding: 10px 30px 10px 30px;
   margin-top: 20px;
 }
@@ -377,5 +376,8 @@ p {
   }
   #navbutton {
     font-size: 0%;
+  }
+  .specs:after {
+	font-size: 50%;
   }
 }
