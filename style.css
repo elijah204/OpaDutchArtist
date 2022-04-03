@@ -70,7 +70,6 @@ a#readAboutOpa::before {
   margin-top: 30%;
   color: white;
   background: rgba(0, 0, 0, 0.6);
-  width: 70%;
   z-index: 0;
   font-size: 250%;
   text-shadow: 3px 3px 5px black;
@@ -103,6 +102,8 @@ a#readAboutOpa::before {
 }
 #gallery a {
   color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 #gallery img {
   box-shadow: 5px 5px 10px;
@@ -383,4 +384,5 @@ p {
   }
   p {
 	font-size: 175%;
+  }
 }
