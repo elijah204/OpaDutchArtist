@@ -95,7 +95,6 @@ a#readAboutOpa::before {
   font-size: 250%;
   color: white;
   text-shadow: 3px 3px 5px black;
-  background-color: rgba(0, 0, 0, 0.6);
   padding-top: 20px;
   padding-bottom: 30px;
 }
@@ -362,9 +361,9 @@ img#modal-img {
 @media all and (orientation: portrait) {
   #bio {
     width: 100%;
-    background: url("images/amsterdamMapBackground.jpg") no-repeat;
+    background: url("images/blackFadeBackground.jpg") no-repeat;
     background-size: auto 100%;
-    background-position: center bottom;
+    background-position: center top;
     background-attachment: fixed;
 		border: 0px 10px 0px 10px solid gray;
 		border-radius: 0px;
@@ -418,7 +417,7 @@ img#modal-img {
 		opacity: 0;
 		pointer-events: none;
 		transition: all 0.3s;
-		bottom: 20px;
+		top: 100px;
 		width: 80%;
 		margin: auto;
 	}
@@ -441,6 +440,6 @@ img#modal-img {
 		border: 2px solid white;
 		padding: 5px 30px 5px 30px;
 		border-radius: 5px;
-		background: rgba(255, 255, 255, 0.5);
+		background: rgba(0, 0, 0, 0.5);
 	}
 }
