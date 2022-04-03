@@ -418,6 +418,7 @@ img#modal-img {
 		opacity: 0;
 		pointer-events: none;
 		transition: all 0.3s;
+		bottom: 20px;
 		width: 80%;
 		margin: auto;
 	}
