@@ -25,13 +25,18 @@ header > img {
 header {
   text-align: center;
 }
+header img {
+	position: relative;
+	top: -60px;
+	border-bottom: 2px solid white;
+}
 a#readAboutOpa {
   position: relative;
-  top: 10px;
+  top: 30px;
   margin-left: 20px;
   margin-right: 20px;
   font-size: 160%;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 10px 50px 10px 50px;
   border-radius: 10px;
   border: 2px solid white;
@@ -39,7 +44,7 @@ a#readAboutOpa {
   text-decoration: none;
   font-weight: bold;
   text-shadow: 3px 3px 5px black;
-  z-index: 4;
+  z-index: 5;
 }
 a#readAboutOpa::before {  
   transform: scaleX(0);
@@ -95,7 +100,6 @@ a#readAboutOpa::before {
   font-size: 250%;
   color: white;
   text-shadow: 3px 3px 5px black;
-  padding-top: 20px;
   padding-bottom: 30px;
 }
 #gallery a {
@@ -128,7 +132,7 @@ a#readAboutOpa::before {
 }
 #bio h2 {
   color: white;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 30px;
   width: 80%;
   margin: auto;
@@ -138,13 +142,11 @@ a#readAboutOpa::before {
 #bio h1 {
   width: 40%;
   margin-bottom: 80px;
-  border: 2px solid white;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 10px;
-  margin-left: 10%;
+  margin-left: 7.2%;
   font-style: italic;
   padding-bottom: 40px;
+	border-left: 4px solid rgba(0, 0, 0, 0.7);
 }
 #bio > img#qrCode {
   float: right;
@@ -360,14 +362,8 @@ img#modal-img {
 @media all and (orientation: portrait) {
   #bio {
     width: 100%;
-    background: url("images/blackFadeBackground.png") no-repeat;
-    background-size: 100% auto;
-    background-position: center top;
-		border-top: 2px solid white;
-		border-bottom: 0px;
-		border-right: 0px;
-		border-left: 0px;
-		border-radius: 0px;
+    background: none;
+		border: none;
   }
   #bio img {
 		width: 30%;
