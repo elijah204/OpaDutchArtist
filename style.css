@@ -432,7 +432,8 @@ img#modal-img {
 		font-weight: bold;
 		position: absolute;
 		bottom: 40px;
-		right: 50%;
+		margin: auto;
+		color: white;
 		font-size: 800%;
 		border: 2px solid white;
 		padding: 5px 30px 5px 30px;
