@@ -442,7 +442,7 @@ img#modal-img {
 		font-size: 800%;
 		border: 2px solid white;
 		padding: 5px 30px 5px 30px;
-		border-radius: 5px;
-		background: rgba(0, 0, 0, 0.5);
+		border-radius: 20px;
+		background: rgba(255, 255, 255, 0.8);
 	}
 }
