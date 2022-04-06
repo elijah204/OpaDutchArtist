@@ -376,11 +376,11 @@ img#modal-img {
 	header img {
 		position: relative;
 		top: 15px;
-		left: 20px;
+		left: 30px;
 		border-bottom: 2px solid white;
 		border-top: 2px solid white;
-		border-left: 30px solid black;
-		border-right: 30px solid black;
+		border-left: 40px solid black;
+		border-right: 40px solid black;
 	}
   #bio h1 {
     width: 100%;
