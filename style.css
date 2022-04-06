@@ -375,7 +375,7 @@ img#modal-img {
   }
 	header img {
 		position: relative;
-		top: 0px;
+		top: 15px;
 		left: 20px;
 		border-bottom: 2px solid white;
 	}
