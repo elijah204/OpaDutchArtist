@@ -68,6 +68,9 @@ a#readAboutOpa::before {
   0% {transform: scale(1);}
   100% {transform: scale(1.2);}
 }
+.categories {
+	text-align: center;
+}
 .category > h1 {
   position: absolute;
   left: 0;
