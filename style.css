@@ -328,16 +328,14 @@ p {
 /* Modal */
 .modal-window {
 	position: fixed;
-	top: 10px;
-	right: 0;
-	bottom: 0;
-	left: 0;
+	right: 150px;
+	top: 0px;
 	z-index: 6;
 	visibility: hidden;
 	opacity: 0;
 	pointer-events: none;
 	transition: all 0.3s;
-	width: 500px;
+	width: 130%;
 	margin: auto;
 }
 .modal-window:target {
@@ -348,17 +346,16 @@ p {
 img#modal-img {
 	border-radius: 0px;
 	border: 4px solid white;
+	width: 90%;
 }
 .modal-window a {
 	z-index: 7;
 	font-weight: bold;
-	position: absolute;
-	bottom: 40px;
 	right: 10%;
+	position: absolute;
 	font-size: 200%;
-	border: 2px solid white;
-	padding: 5px 30px 5px 30px;
-	border-radius: 5px;
+	padding: 300px;
+	padding-top: 20px;
 	background: rgba(255, 255, 255, 0.5);
 }
 
@@ -422,20 +419,20 @@ img#modal-img {
   p {
 		font-size: 175%;
   }
-	.category > h1 {
-		width: 70%;
-	}
-	
+  .category > h1 {
+	width: 70%;
+  }
 	/* Modal */
 	.modal-window {
 		position: fixed;
+		right: -200px;
+		top: 0px;
 		z-index: 6;
 		visibility: hidden;
 		opacity: 0;
 		pointer-events: none;
 		transition: all 0.3s;
-		top: 100px;
-		width: 80%;
+		width: 130%;
 		margin: auto;
 	}
 	.modal-window:target {
@@ -446,18 +443,17 @@ img#modal-img {
 	img#modal-img {
 		border-radius: 0px;
 		border: 4px solid white;
+		width: 90%;
 	}
 	.modal-window a {
 		z-index: 7;
 		font-weight: bold;
+		right: 10%;
 		position: absolute;
-		bottom: 40px;
-		margin: auto;
-		right: 40px;
-		font-size: 800%;
-		border: 2px solid white;
-		padding: 5px 30px 5px 30px;
-		border-radius: 20px;
-		background: rgba(255, 255, 255, 0.8);
+		font-size: 200%;
+		padding: 300px;
+		padding-top: 20px;
+		padding-bottom: 600px;
+		background: rgba(255, 255, 255, 0.5);
 	}
 }
