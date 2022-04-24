@@ -97,6 +97,27 @@ a#readAboutOpa::before {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+#portfolio {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+#portfolio > a {
+	color: black;
+}
+#portfolio > h1 {
+  position: absolute;
+  left: 26%;
+  margin-top: 4%;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+  font-size: 250%;
+  text-shadow: 3px 3px 5px black;
+}
+#portfolio > h1 > a {
+	text-decoration: none;
+}
 #gallery h1 {
   font-style: italic;
   text-align: center;
@@ -328,14 +349,16 @@ p {
 /* Modal */
 .modal-window {
 	position: fixed;
-	right: 150px;
-	top: 0px;
+	top: 10px;
+	right: 0;
+	bottom: 0;
+	left: 0;
 	z-index: 6;
 	visibility: hidden;
 	opacity: 0;
 	pointer-events: none;
 	transition: all 0.3s;
-	width: 130%;
+	width: 500px;
 	margin: auto;
 }
 .modal-window:target {
@@ -346,16 +369,17 @@ p {
 img#modal-img {
 	border-radius: 0px;
 	border: 4px solid white;
-	width: 90%;
 }
 .modal-window a {
 	z-index: 7;
 	font-weight: bold;
-	right: 10%;
 	position: absolute;
+	bottom: 40px;
+	right: 10%;
 	font-size: 200%;
-	padding: 300px;
-	padding-top: 20px;
+	border: 2px solid white;
+	padding: 5px 30px 5px 30px;
+	border-radius: 5px;
 	background: rgba(255, 255, 255, 0.5);
 }
 
@@ -419,20 +443,20 @@ img#modal-img {
   p {
 		font-size: 175%;
   }
-  .category > h1 {
-	width: 70%;
-  }
+	.category > h1 {
+		width: 70%;
+	}
+	
 	/* Modal */
 	.modal-window {
 		position: fixed;
-		right: -200px;
-		top: 0px;
 		z-index: 6;
 		visibility: hidden;
 		opacity: 0;
 		pointer-events: none;
 		transition: all 0.3s;
-		width: 130%;
+		top: 100px;
+		width: 80%;
 		margin: auto;
 	}
 	.modal-window:target {
@@ -443,17 +467,18 @@ img#modal-img {
 	img#modal-img {
 		border-radius: 0px;
 		border: 4px solid white;
-		width: 90%;
 	}
 	.modal-window a {
 		z-index: 7;
 		font-weight: bold;
-		right: 10%;
 		position: absolute;
-		font-size: 200%;
-		padding: 300px;
-		padding-top: 20px;
-		padding-bottom: 600px;
-		background: rgba(255, 255, 255, 0.5);
+		bottom: 40px;
+		margin: auto;
+		right: 40px;
+		font-size: 800%;
+		border: 2px solid white;
+		padding: 5px 30px 5px 30px;
+		border-radius: 20px;
+		background: rgba(255, 255, 255, 0.8);
 	}
 }
