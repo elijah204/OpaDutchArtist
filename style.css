@@ -80,6 +80,8 @@ a#readAboutOpa::before {
   z-index: 0;
   font-size: 250%;
   text-shadow: 3px 3px 5px black;
+	padding: 5px;
+	border-radius: 5px;
 }
 .category > h1 > a {
   text-decoration: none;
@@ -114,6 +116,8 @@ a#readAboutOpa::before {
   z-index: 0;
   font-size: 250%;
   text-shadow: 3px 3px 5px black;
+	padding: 5px;
+	border-radius: 5px;
 }
 #portfolio > h1 > a {
 	text-decoration: none;
