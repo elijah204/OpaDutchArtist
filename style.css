@@ -373,6 +373,7 @@ p {
 img#modal-img {
 	border-radius: 0px;
 	border: 4px solid white;
+	-webkit-box-shadow: 0px 0px 0px 500px rgba(200, 200, 200, 0.7); 
 }
 .modal-window a {
 	z-index: 7;
@@ -386,6 +387,14 @@ img#modal-img {
 	border-radius: 5px;
 	background: rgba(0, 200, 100, 0.9);
 	color: black;
+}
+.modal-window p {
+	z-index: 7;
+	font-weight: bold;
+	position: absolute;
+	top: 10px;
+	right: 60px;
+	font-size: 100%;
 }
 
 @media all and (orientation: portrait) {
@@ -472,6 +481,7 @@ img#modal-img {
 	img#modal-img {
 		border-radius: 0px;
 		border: 4px solid white;
+		-webkit-box-shadow: 0px 0px 0px 500px #DADDDA, 13px 5px 15px 5px rgba(0,0,0,0.6); 
 	}
 	.modal-window a {
 		z-index: 7;
