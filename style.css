@@ -437,7 +437,7 @@ img#modal-img {
 		font-size: 0%;
 	}
   .specs:after {
-		font-size: 30%;
+		font-size: 60%;
 		padding: 10px 10px 10px 10px;
   }
   p {
@@ -480,5 +480,10 @@ img#modal-img {
 		padding: 5px 30px 5px 30px;
 		border-radius: 20px;
 		background: rgba(255, 255, 255, 0.8);
+	}
+	#portfolio {
+		width: 90%;
+		margin: auto;
+		text-align: center;
 	}
 }
