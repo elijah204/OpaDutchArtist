@@ -460,8 +460,8 @@ img#modal-img {
 		opacity: 0;
 		pointer-events: none;
 		transition: all 0.3s;
-		top: 100px;
-		width: 80%;
+		top: 50px;
+		width: 90%;
 		margin: auto;
 	}
 	.modal-window:target {
@@ -482,7 +482,7 @@ img#modal-img {
 		right: 200px;
 		font-size: 800%;
 		border: 2px solid white;
-		padding: 5px 30px 5px 30px;
+		padding: 5px 120px 5px 120px;
 		border-radius: 20px;
 		background: rgba(0, 200, 100, 0.9);
 	}
