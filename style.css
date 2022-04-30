@@ -99,25 +99,18 @@ a#readAboutOpa::before {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-#portfolio {
-	width: 50%;
-	margin: auto;
-	text-align: center;
-}
-#portfolio > a {
-	color: black;
-}
-#portfolio > h1 {
+#bio > #portfolio > h1 {
   position: absolute;
-  left: 26%;
-  margin-top: 4%;
+  left: 60%;
+  margin-top: 19%;
   color: white;
   background: rgba(0, 0, 0, 0.6);
-  z-index: 0;
-  font-size: 250%;
+  z-index: 5;
+  font-size: 120%;
   text-shadow: 3px 3px 5px black;
 	padding: 5px;
 	border-radius: 5px;
+	width: 20%;
 }
 #portfolio > h1 > a {
 	text-decoration: none;
@@ -141,17 +134,12 @@ a#readAboutOpa::before {
   width: 90%;
 }
 #bio {
-  background: url("images/blackFadeBackground.png") no-repeat;
-  background-size: 100% auto;
-  background-position: center top;
   width: 80%;
-  margin: auto;
   margin-top: 10px;
-  border: 2px solid white;
-  border-radius: 30px 30px 0px 0px;
+	margin: auto;
 }
 #bio img {
-  width: 20%;
+  width: 25%;
   margin-top: 20px;
   float: right;
   margin-right: 100px;
@@ -377,16 +365,11 @@ img#modal-img {
 }
 .modal-window a {
 	z-index: 7;
-	font-weight: bold;
+	right: -100%;
+	top: -10%;
 	position: absolute;
-	bottom: 400px;
-	right: -200px;
-	font-size: 400%;
-	border: 2px solid white;
-	padding: 5px 30px 5px 30px;
-	border-radius: 5px;
-	background: rgba(0, 200, 100, 0.9);
-	color: black;
+	padding: 1000%;
+	background: rgba(0, 0, 0, 0);
 }
 .modal-window p {
 	z-index: 7;
@@ -396,8 +379,21 @@ img#modal-img {
 	right: 60px;
 	font-size: 100%;
 }
+.mobileText {
+	font-size: 0%;
+}
+.desktopText {
+	font-size: 100%;
+}
 
+/* MOBILE VERSION */
 @media all and (orientation: portrait) {
+	.mobileText {
+		font-size: 100%;
+	}
+	.desktopText {
+		font-size: 0%;
+	}
   #bio {
     width: 100%;
     background: none;
@@ -482,19 +478,6 @@ img#modal-img {
 		border-radius: 0px;
 		border: 4px solid white;
 		-webkit-box-shadow: 0px 0px 0px 900px rgba(200, 200, 200, 0.7); 
-	}
-	.modal-window a {
-		z-index: 7;
-		font-weight: bold;
-		position: absolute;
-		bottom: 40px;
-		margin: auto;
-		right: 150px;
-		font-size: 800%;
-		border: 2px solid white;
-		padding: 5px 120px 5px 120px;
-		border-radius: 20px;
-		background: rgba(0, 200, 100, 0.9);
 	}
 	.modal-window p {
 		font-size: 200%;
