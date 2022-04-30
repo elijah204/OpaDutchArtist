@@ -400,8 +400,10 @@ img#modal-img {
 		border: none;
   }
   #bio img {
-		width: 30%;
-		margin-right: 50px;
+		width: 40%;
+		margin-right: 40px;
+		margin-bottom: 20px;
+		margin-left: 10px;
   }
   header > a {
 		font-size: 120%;
@@ -493,12 +495,12 @@ img#modal-img {
 	}
 	#portfolio > h1 {
 		position: absolute;
-		left: 18%;
-		margin-top: 4%;
+		left: 22%;
+		margin-top: 10%;
 		color: white;
 		background: rgba(0, 0, 0, 0.6);
 		z-index: 0;
-		font-size: 250%;
+		font-size: 320%;
 		text-shadow: 3px 3px 5px black;
 	}
 }
