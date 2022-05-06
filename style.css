@@ -226,7 +226,7 @@ footer > a#readAboutOpa {
   font-size: clamp(1rem, 0.5rem + 8vw, 10rem);
 }
 .thumbnail:hover {
-  position: relative;
+  position: absolute;
   top: -35px;
   animation-name: thumbnailHover;
   animation-duration: .3s;
