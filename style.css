@@ -226,7 +226,7 @@ footer > a#readAboutOpa {
   font-size: clamp(1rem, 0.5rem + 8vw, 10rem);
 }
 .thumbnail:hover {
-  position: absolute;
+  position: relative;
   top: -35px;
   animation-name: thumbnailHover;
   animation-duration: .3s;
@@ -495,8 +495,8 @@ img#modal-img {
 	}
 	#portfolio > h1 {
 		position: absolute;
-		left: 22%;
-		margin-top: 10%;
+		left: 25%;
+		margin-top: 15%;
 		color: white;
 		background: rgba(0, 0, 0, 0.6);
 		z-index: 0;
